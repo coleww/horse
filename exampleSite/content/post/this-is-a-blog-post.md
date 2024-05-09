@@ -1,7 +1,7 @@
 ---
 title:  This is a blog post
 date: 2017-10-10
-tags: ["Something", "Samples", "Example"]
+tags: ["Something", "Samples", "Example", "quip"]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

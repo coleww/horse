@@ -1,7 +1,7 @@
 ---
 title:  Even more posts
 date: 2017-08-10
-tags: ["Example", "Specimen", "Prototype"]
+tags: ["Example", "Specimen", "Prototype", "musing"]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

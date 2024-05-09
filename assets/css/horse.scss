@@ -292,39 +292,8 @@ footer {
   color: #aaa;
 }
 
-.album {
-  .date, .date h5, .location, .location h5 {
-    display: inline;
-  }
-  .location {
-    color: #888;
-    border-left: solid 2px #ccc;
-    padding-left: 1em;
-    margin-left: 1em;
-  }
-  .photos {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.7em 0.7em;
-    a {
-      display: grid;
-    }
-    a.full-size {
-      grid-column-start: 1;
-      grid-column-end: 3;
-    }
-  }
-}
-
 @media (max-width:400px) {
   body {
     font-size: 14px;
-  }
-  .album .photos {
-    grid-template-columns: 1fr;
-    a {
-      grid-column-start: 1;
-      grid-column-end: 3;
-    }
   }
 }

@@ -1,5 +1,5 @@
 {{ define "main" }}
-    {{ $paginator := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+    {{ $paginator := .Paginate (where site.RegularPages "Tags" "in" site.Params.mainSections) }}
     {{ .Scratch.Set "pagenumber" .Paginator.PageNumber }}
     {{ if eq .Paginator.PageNumber 1 }}
         {{- partial "about.html" . -}}

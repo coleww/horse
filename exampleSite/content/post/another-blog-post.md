@@ -1,7 +1,7 @@
 ---
 title:  Another post is here
 date: 2017-09-07
-tags: ["Samples", "Example", "Specimen"]
+tags: ["Samples", "Example", "Specimen", "Musing"]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

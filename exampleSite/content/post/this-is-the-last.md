@@ -1,7 +1,7 @@
 ---
 title:  This is the last one
 date: 2017-07-10
-tags: ["Specimen", "Prototype", "Chimichanga"]
+tags: ["Specimen", "Prototype", "Chimichanga", "quip"]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

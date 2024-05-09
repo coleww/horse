@@ -11,12 +11,5 @@
     <footer>
       {{- partial "footer.html" . -}}
     </footer>
-    {{ $js := resources.Get "js/rocinante.js" | resources.Minify }}
-    <script>
-      const emailId = atob({{.Param "email" | base64Encode}});
-    </script>
-    {{- if isset .Site.Params "email" }}
-      <script src="{{ $js.RelPermalink }}"></script>
-    {{- end -}}
   </body>
 </html>
